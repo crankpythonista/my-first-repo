@@ -6,7 +6,7 @@ comp_roll = random.randint(1,6)
 
 user_roll = input("Press y to roll the dice !!: ")
 
-# The user press 'y', which generated a similar random number between 1 to 6.
+# The user presses 'y', which generates a similar random number between 1 to 6.
 
 if user_roll == 'y':
 	user_roll = random.randint(1,6)
