@@ -4,16 +4,16 @@ import random
 comp_roll = random.randint(1,6)
 
 
-user_roll = input("Press y to roll the dice !!: ")
+user_roll = input("\nWelcome to my rolling dice simulator!! \n\nPress 'r' to roll the dice !!: ")
 
-# The user presses 'y', which generates a similar random number between 1 to 6.
+# The user presses 'r', which generates a similar random number between 1 to 6.
 
-if user_roll == 'y':
+if user_roll == 'r':
 	user_roll = random.randint(1,6)
 
 # The user gets to see both of the results.
 
-print(f"The computer rolled {comp_roll}.\n")
+print(f"\nThe computer rolled {comp_roll}.\n")
 print(f"You rolled {user_roll}.\n")
 
 # The final result is shown to the user in the form of win/lose/draw.
